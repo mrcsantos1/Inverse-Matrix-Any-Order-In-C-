@@ -1,10 +1,6 @@
-/* Este algoritmo foi criado para fins educativos. Sua utilizÁ„o È livre, desde que usado 
-*  para o crescimento e para a expans„o do conhecimento 
-*  da programaÁ„o. 
-*
-*  Este algoritmo foi desenvolvido com o objetivo de alcanÁar a aprovaÁ„o na discilpina 
-*  de ALGORITMOS E PROGRAMA«√O, ministrada pelo PROFESSOR DR. ENG. RODRIGO VARELLA, 
-*  no curso de ENGENHARIA EL…TRICA da UNIVERSIDADE FEDERAL DE SANTA MARIA, CAMPUS CACHOEIRA DO SUL.
+/* Este algoritmo foi criado para fins educativos e com o objetivo de alcan√ßar a aprova√ß√£o na discilpina 
+*  de ALGORITMOS E PROGRAMA√á√ÉO, ministrada pelo PROFESSOR DR. ENG. RODRIGO VARELLA, 
+*  no curso de ENGENHARIA EL√âTRICA da UNIVERSIDADE FEDERAL DE SANTA MARIA, CAMPUS CACHOEIRA DO SUL.
 *  
 *  Grupo: BRUNO PONCIANO; MARCOS ALVES DOS SANTOS; MARIANNA T. BATISTA.
 *
@@ -75,12 +71,12 @@ system("cls");
 	}
 	
 ////////////////////////// PERGUNTA SE QUER REESCREVER A MATRIZ //////////////////////////////////////////////////////////////////////////////
-	printf("\n\n\t\tPRESSIONE 1 PARA INVERTER ESTA MATRIZ PELO M…TODO ELEMENTAR\n\t\t\tOU PRESSIONE 0 PARA REESCREVER A MATRIZ\n"); 
+	printf("\n\n\t\tPRESSIONE 1 PARA INVERTER ESTA MATRIZ PELO M√âTODO ELEMENTAR\n\t\t\tOU PRESSIONE 0 PARA REESCREVER A MATRIZ\n"); 
     scanf("%d", &escolha);
     system("cls");
 }while( escolha != 1 );	
 
-/////////////////////////////////////////////  C ¡ L C U L O S  //////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////  C √Å L C U L O S  //////////////////////////////////////////////////////////////////////////////
 	
 ///////////////////////////////ESCALONAMENTOOOO//////////////////////
 	for(j=1;j<=n;j++)
@@ -106,7 +102,7 @@ system("cls");
 		}
 	}
 	
-//////// DIVIS√O DAS LINHAS PELOS ELEMENTOS DA DIAGONAL PRINCIPAL DA MATRIZ DADA ////
+//////// DIVIS√ÉO DAS LINHAS PELOS ELEMENTOS DA DIAGONAL PRINCIPAL DA MATRIZ DADA ////
     for(l=n; l>=1; l--)
     {
      	for(g=2*n; g>=1; g--)
@@ -121,14 +117,14 @@ system("cls");
 			}
 		}
 	}
-                        ///////////////////  SOMAT”RIO PARA VERIFICA«√O DA IVERSIBILIDADE  //////////////////////////
+                        ///////////////////  SOMAT√ìRIO PARA VERIFICA√á√ÉO DA IVERSIBILIDADE  //////////////////////////
 						soma_da_primeira_linha_da_identidade = 0;
                         for(j=1; j<=n; j++)
                         {
 				            soma_da_primeira_linha_da_identidade = soma_da_primeira_linha_da_identidade + A[j][1];
 						}
 
-///////////////////////////////////////////  V E R I F I C A   S E    …   I N V E R S Õ V E L  //////////////////////////////////////////////	 
+///////////////////////////////////////////  V E R I F I C A   S E    √â   I N V E R S √ç V E L  //////////////////////////////////////////////	 
 	 if( soma_da_primeira_linha_da_identidade != 1 )
 {
 	printf("\nA matriz nAo e' inversIvel! Por favor, digite uma matriz inversIvel.\n\n");
@@ -140,11 +136,11 @@ else
 }
 }while( soma_da_primeira_linha_da_identidade != 1 );
 
-////////////////////////////////////////////  F I M   D O S   C ¡ L C U L O S  ///////////////////////////////////////////////////////////////
+////////////////////////////////////////////  F I M   D O S   C √Å L C U L O S  ///////////////////////////////////////////////////////////////
 
 system("cls");
 
-///////////////////////////////////////////  EXIBI«√O DA MATRIZ IDENTIDADE E DA MATRIZ INVERTIDA /////////////////////////////////////////////
+///////////////////////////////////////////  EXIBI√á√ÉO DA MATRIZ IDENTIDADE E DA MATRIZ INVERTIDA /////////////////////////////////////////////
 	printf("\n\t\tMATRIZ IDENTIDADE \tE A \tMATRIZ INVERTIDA: \n\n");
 		for(i=1; i<=n; i++) 
 	{
@@ -176,6 +172,6 @@ system("cls");
 		}
 		putchar('\n');
 	}
-////////////////////////////////////////// G L ” R I A  A  D E U S  ! ! ! :D  ////////////////////////////////////////////////////////////////
+////////////////////////////////////////// G L √ì R I A  A  D E U S  ! ! ! :D  ////////////////////////////////////////////////////////////////
 }
 
